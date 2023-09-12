@@ -2,57 +2,71 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+}
+.container{
+width: 100%;
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+
+    border-radius: 130px;
+    align-items: center;
+}
+.card{
+    padding: 20px;
+    margin: 5px;
+    border:2px ;
+    border: 6px double black;
+    border-radius: 15px;
+    width: 300px;  
+}
+p,h1{
+    text-align: center;
+    color: beige;
 }
 
+<<<<<<< HEAD
 .a1{
     background-color: rgb(227, 241, 237);
     border: solid 2px rgb(202, 200, 200);
     width: 68%;
   margin: auto;
   margin-top: 70px;
+=======
+.Card1{
+    background-color: blue;
+}
+ .Card2{
+  background-color: brown;
+}
+.Card3{
+background-color: rgb(4, 94, 94);
+} 
+@media only screen and (min-width:400px) and (max-width:600px){   /*mobile 320px to 500px */
+    .container{
+       /* background-color:blue ; */
+       border: 5px solid rgb(45, 196, 58);
+       background-color: brown;
+       flex-direction:column;
+    }
+}
+>>>>>>> 6fbf62bdbc886131d6763b201bd52f7ed362c9b0
 
+@media only screen and (min-width:600px) and (max-width:1200px){   /*tab 500px to 800px */
+    .card{
+     
+       border: 5px solid rgb(70, 75, 71);
+       display: flex;
+       flex-direction:row;
+       justify-content: center;
+       align-items: center;
+       width: 50%;
+    }
+    .container{
+        flex-direction:column;
+        }
 
 }
 
-.b1{
-    background-color:aquamarine;
-    padding: 120px;
-
-}
-.head{
-    border-bottom: solid 2px rgb(122, 122, 122);
-    display:flex;
-    justify-content: space-between;
-    padding: 10px;
-   
-}
-.content{
-    display: flex;
-    justify-content: space-evenly;
-
-
-}
-button{
-border:2px solid rgb(207, 201, 201);
-padding: 10px;
-margin: 20px;
-justify-content:space-evenly;
-}
-h1{
-    font-size:140;
-    padding-top: 20px;
-}
-.col1{
-    padding-right:10px;
-    margin-bottom:2px;
-    padding-top: 4px;
-    border-right:2px solid black;
-}
-.col2 p{
-padding: 10px;
-font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.col2 h5{
-    padding-bottom: 16px;
-}

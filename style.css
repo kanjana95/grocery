@@ -35,6 +35,7 @@ p,h1{
 }
 .Card1{
     background-color: blue;
+    border:4px solid red;
 }
  .Card2{
   background-color: brown;
